@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import Login from "./Login";
 import SignUp from "../signup/SignUp";
 import Navbar from "../Navbar/Navbar";
-import Contact from "../Contact/Contact";
+//import Contact from "../Contact/Contact";
+import Singapore from "../Singapore/Singapore";
 import Dashboard from "../Dashboard/Dashboard";
 import Add from "../Add/Add";
 import Tours from "../Tours/Tours";
@@ -30,21 +31,12 @@ export default class MyHome extends Component {
 
             <Route path="/home" exact component={HomePage}></Route>
 
-            <Route path="/dashboard" exact component={Dashboard}></Route>
+            {/* <Route path="/dashboard" exact component={Dashboard}></Route> */}
 
-            <Route path="/contact" exact component={Contact}></Route>
+            {/* <Route path="/contact" exact component={Contact}></Route> */}
+            <Route path="/singapore" exact component={Singapore}></Route>
 
             <Route path="/add" exact component={Add}></Route>
-
-            {/* <PrivateRoute path="/dashboard">
-              <AuthButton />
-              <Dashboard />
-            </PrivateRoute> */}
-
-            {/* <PrivateRoute path="/add">
-              <AuthButton />
-              <Add />
-            </PrivateRoute> */}
 
             <Route path="/login" exact component={LoginPage}></Route>
 
@@ -52,13 +44,13 @@ export default class MyHome extends Component {
 
             <Route path="/edit" exact component={Edit}></Route>
 
-            <Route path="/view" exact component={ViewTours}></Route>
+            {/* <Route path="/view" exact component={ViewTours}></Route> */}
 
             <PrivateRoute path="/tours" exact component={Tours} loggedIn={function(){console.log(localStorage.getItem('authToken')); if(localStorage.getItem('authToken')){return true}else{return false}}}></PrivateRoute>
 
             
 
-            {/* <Route path="/signup" component={SignUp}></Route> */}
+            <Route path="/signup" component={SignUp}></Route>
           </Switch>
         </div>
       </Router>

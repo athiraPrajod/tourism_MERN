@@ -15,7 +15,7 @@ export class HomePage extends Component {
   }
 
   async componentDidMount() {
-    return fetch("http://localhost:5000/view")
+    return fetch("http://localhost:5000")
       .then((response) => response.json())
       .then((responseJson) => {
         console.log(responseJson);
@@ -50,49 +50,69 @@ export class HomePage extends Component {
 
         <br></br>
 
-        <div className="container text-center">
+        {/* <div className="container text-center">
           <img src={image1}></img>
-        </div>
+        </div> */}
         <br></br>
         <div className="container-text-left">
-          <h2>
-            ---Cards here---
-          </h2>
+          
           <div class="row">
           {this.state.tours.map((value, key) => (
             <div className="card" key={key}>
               <img
-                src="https://i.pinimg.com/originals/54/2c/7e/542c7e0c990d70f3e732b8a9cf64815f.png"
+                // src="https://i.pinimg.com/originals/54/2c/7e/542c7e0c990d70f3e732b8a9cf64815f.png"
+                src = {value.image}
                 className="card-img-top"
               />
               <div className="card-body">
-                <h5 className="card-title">{value.tname}</h5>
-                <p className="card-text justufy">{value.tdescription}</p>
+                <h5 className="card-title">{value.country_name}</h5>
+                <p className="card-text justify">{value.desc}</p>
                 <br />
-                <p className="card-text mb-0 p-8">
-                  <b>Price: </b>
-                  {value.price}
-                </p>
-                <p className="card-text">
-                  <b>Package No: </b>
-                  {value.tnumber}
-                </p>
-                <Link to="/add">
-                <div class="text-center">
-                  <a href="#" class="btn btn-primary">
-                    Book Now
-                  </a>
-                </div>
-                </Link>
               </div>
             </div>
           ))}
+              
         </div>
           <br></br>
           <p>
             End of cards
           </p>
         </div>
+        <br></br>
+        <br></br>
+        <Link to="/add">
+          <div class="text-center">
+            <a href="#" class="btn btn-primary">
+              Norway
+            </a>
+          </div>
+        </Link>
+
+        <br></br>
+        {/* <Link to="./singapore">
+          <div class="text-center">
+            <a href="#" class="btn btn-primary">
+              Singapore
+            </a>
+          </div>
+        </Link> */}
+      
+        <Link to="./add">
+          <div class="text-center">
+            <button className="btn btn-primary" type="submit">
+              <i aria-hidden="true"></i>Singapore
+            </button>
+          </div>
+        </Link>
+
+        <br></br>
+        <Link to="/add">
+          <div class="text-center">
+            <a href="#" class="btn btn-primary">
+              India
+            </a>
+          </div>
+        </Link>
 
         <div className="container-text-left">
           <h2></h2>
@@ -100,11 +120,6 @@ export class HomePage extends Component {
           <p>
             
           </p>
-        </div>
-
-        <br></br>
-        <div className="container text-center">
-          <img src={image2}></img>
         </div>
 
         <br></br>

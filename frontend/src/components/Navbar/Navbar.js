@@ -26,7 +26,7 @@ class Navbar extends Component {
       <nav className="navbar p-3 mb-2 navbar-expand-lg navbar-dark bg-dark">
         <a className="navbar-brand mr-3">
           {" "}
-          <img src={loyal}></img>&nbsp; World Wide Explorers
+          <img src={loyal}></img>&nbsp; The Tour Guide
         </a>
         <button
           className="navbar-toggler"
@@ -42,16 +42,16 @@ class Navbar extends Component {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <div className="r"></div>
           <div className="navbar-buttons ml-auto">
-            <Link to="/login">
+            {/* <Link to="/login">
               <button className="btn btn-danger mr-2" type="submit">
                 <i class="fa fa-user" aria-hidden="true"></i>&nbsp; Login
               </button>
-            </Link>
-            <Link to="/dashboard">
+            </Link> */}
+            {/* <Link to="/dashboard">
               <button className="btn btn-warning mr-2" type="submit">
                 <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; AboutUs
               </button>
-            </Link>
+            </Link> */}
             <Link to="/home">
               <button className="btn btn-success mr-2" type="submit">
                 <i class="fa fa-home" aria-hidden="true"></i>&nbsp; Home
@@ -60,22 +60,22 @@ class Navbar extends Component {
 
             <Link to="/contact">
               <button className="btn btn-light mr-2" type="submit">
-                <i class="fa fa-phone" aria-hidden="true"></i>&nbsp; ContactUs
+                <i class="fa fa-phone" aria-hidden="true"></i>&nbsp; Singapore
               </button>
             </Link>
 
             <Link to="/add">
               <button className="btn btn-info mr-2" type="submit">
                 <i class="fa fa-tag" aria-hidden="true"></i>&nbsp;
-                TourReservation
+                Sign Up
               </button>
             </Link>
 
-            <Link to="/view">
+            {/* <Link to="/view">
               <button className="btn btn-success mr-2" type="submit">
                 <i class="fa fa-car" aria-hidden="true"></i>&nbsp; TourPackages
               </button>
-            </Link>
+            </Link> */}
 
             <button
               className="btn btn-warning mr-2"

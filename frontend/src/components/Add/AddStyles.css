@@ -11,3 +11,205 @@ input {
 .o {
   font-size: 400%;
 }
+
+
+
+
+/* body{
+  background-color:rgba(0,0,0,0);
+  background-image: url("https://www.thoughtco.com/thmb/h2rufV1n9LVbA4jaOzXUuJMATVw=/2121x1414/filters:fill(auto,1)/singapore--garden-by-the-bay--supertree-grove-638256268-fa59e7e78b6449aaa40f68eafe6ff1a1.jpg");
+  color:blanchedalmond;
+  background-repeat: no-repeat;
+ 
+
+} */
+
+
+/*
+.Singapore{
+background-size: 1000px 200px;
+width: 1050px;
+height: 200px;
+color:rgb(56, 42, 48);
+border:10px;
+text-align: left;
+
+
+text-shadow: rgb(228, 24, 58);
+
+}
+
+
+.mySlides{
+display:none;
+}
+
+
+
+
+
+
+.txt{
+text-align: center;
+font-style: italic;
+color:rgb(13, 56, 2);
+text-decoration: underline;
+
+}
+
+#mySidenav a {
+position: absolute;
+left: -80px;
+transition: 0.3s;
+padding: 15px;
+width: 90px;
+text-decoration: underline;
+font-size: 30px;
+font-style: normal ;
+color: white;
+border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+left: 0;
+}
+
+
+
+#f1{
+top: 300px;
+background-color: rgb(13, 211, 218);
+}
+
+
+#d1{
+top: 360px;
+background-color: rgb(233, 199, 10);
+
+}
+
+#fun1 {
+top: 420px;
+background-color: rgb(32, 17, 15);
+}
+
+#m1 {
+top: 480px;
+background-color: rgb(32, 17, 15);
+
+
+
+}
+
+
+
+.image{
+flex-basis:0cm;
+padding-top: 30px;
+}
+.text {
+font-size: 20px;
+padding-left: 10px;
+color : whitesmoke
+}
+
+
+.a {
+text-decoration: none;
+display: inline-block;
+padding: 8px 16px;
+}
+
+.prevFood {
+background-color: #ec1266;
+color: black;
+}
+
+.roundFood {
+border-radius : 50%
+}
+
+
+
+
+
+#image {
+
+flex-basis: 40%
+}
+#text {
+font-size: 20px;
+padding-left: 10px;
+color : whitesmoke
+}
+
+#a {
+text-decoration: none;
+display: inline-block;
+padding: 8px 16px;
+}
+
+#prevDrink {
+background-color: #ec1266;
+color: black;
+}
+
+#roundDrink {
+border-radius : 50%
+}
+
+
+.column {
+float: left;
+width: 25%;
+padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+@media screen and (max-width: 600px) {
+.column {
+width: 100%;
+display: block;
+margin-bottom: 20px;
+}
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+padding: 16px;
+text-align: center;
+background-color: #042a49;
+border-radius: 8px;
+}
+.funImg{
+
+height:600px;
+width: 1000px;
+
+padding-left: 100px;
+}
+
+.link {
+background-color: white;
+color:white;
+border: 2px solid green;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+.act{
+background-image: url("https://www.thoughtco.com/thmb/h2rufV1n9LVbA4jaOzXUuJMATVw=/2121x1414/filters:fill(auto,1)/singapore--garden-by-the-bay--supertree-grove-638256268-fa59e7e78b6449aaa40f68eafe6ff1a1.jpg");
+height:150px;
+
+
+}
+*/
